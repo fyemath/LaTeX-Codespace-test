@@ -1,0 +1,88 @@
+\documentclass[Letterpaper, 12pt]{article}
+%\usepackage[utf8]{inputenc}
+\usepackage{amsmath, fancyhdr}
+\usepackage[margin=1in]{geometry}
+%\parskip = 0.2in
+
+\usepackage{enumitem}
+\setlist[enumerate, 1]{
+label = (\alph*),
+itemsep = 6\baselineskip
+}
+
+\title{Weekly}
+\author{wenjuan.li }
+\date{October 2022}
+\begin{document}
+%-------------------------------
+%	HEADERS and FOOTERS SECTION
+%-------------------------------
+%\maketitle
+\pagestyle{fancy}
+%... then configure it.
+\fancyhead{} % clear all header fields
+%\fancyhead[C]{\textbf{: Weekly Review 1 for MTH130 (Instructor: Dr. Wenjuan Li}}
+\fancyhead[L]{\textbf{MTH130 Weekly Review}}
+\fancyhead[R]{\textbf{Name:}\hspace{1.5in}}
+%\fancyfoot{} % clear all footer fields
+%\fancyfoot[LE,RO]{\thepage}
+%\fancyfoot[LO,CE]{From: K. Grant}
+%\fancyfoot[CO,RE]{To: Dean A. Smith}
+
+\begin{center} {\large\textbf{Transformations of Functions}}\\
+	\smallskip
+	\textbf{Due Date: 10/12/2022}
+\end{center}
+%\noindent\textbf{Name:} \underline{\hspace{6cm}} \\
+
+%-------------------------------
+%	Content SECTION
+%-------------------------------
+\noindent \textbf{Ex.1 Fill in the blanks.} \\
+%\vspace{0.25in}
+%-------------------------------
+%	Table SECTION
+%-------------------------------
+\begingroup
+\setlength{\tabcolsep}{10pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1.5} % Default value: 1
+\begin{table}[htbp]
+	%\caption{Transformations of Functions}
+	%\bigskip
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Function Notation        & Change in Coordinate Point            & \hspace{1cm} Transformation \hspace{1cm} \\ [2ex] % inserts table %heading
+		\hline
+		$y=f(x)+c, c>0$          & $(x, y) \rightarrow(x, y+c)$          &                                          \\ \hline
+		$y=f(x)-c, c>0$          & $(x, y) \rightarrow(x, y-c)$          &                                          \\ \hline
+		$y=f(x+c), c>0$          & $(x, y) \rightarrow(x-c, y)$          &                                          \\ \hline
+		$y=f(x-c), c>0$          & $(x, y) \rightarrow(x+c, y)$          &                                          \\ \hline
+		$y=f(kx), k>1$           & $(x, y) \rightarrow(\frac{1}{k}x, y)$ &                                          \\ \hline
+		$y=f(\frac{1}{k}x), k>1$ & $(x, y) \rightarrow(kx, y)$           &                                          \\ \hline
+		$y=kf(x), k>1$           & $(x, y) \rightarrow(x, ky)$           &                                          \\ \hline
+		$y=\frac{1}{k}f(x), k>1$ & $(x, y) \rightarrow(x, \frac{1}{k}y)$ &                                          \\ \hline
+		$y=-f(x)$                & $(x, y) \rightarrow(x, -y)$           & \hfill                                   \\ \hline
+		$y=f(-x)$                & $(x, y) \rightarrow(-x, y)$           & \hfill                                   \\ \hline
+	\end{tabular}
+	\label{table:nonlin}
+\end{table}
+\endgroup
+
+%-------------------------------
+%	Practice Problems
+%-------------------------------
+\noindent \textbf{Ex.2 Determine how the graphs below can be obtained from the graph of $f$.}
+
+\begin{enumerate}[itemsep = 2\baselineskip]
+	\item $y=f(\frac{1}{3} x) +6$
+	      \vspace*{3\baselineskip}
+	\item $y=f(\frac{1}{3} x) +6$
+	\item $y=-f(2x)+7$
+\end{enumerate}
+
+
+\end{document}
+
+
+

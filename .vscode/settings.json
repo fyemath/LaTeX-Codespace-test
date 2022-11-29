@@ -14,8 +14,30 @@
             "name": "Build (bib)",
             "tools": ["XeTeX", "BibTeX", "XeTeX", "XeTeX"]
         }
+        // { "name": "Arara", "tools": ["arara"] },
+        // { "name": "Arara Clean", "tools": ["arara clean"] }
     ],
     "latex-workshop.latex.tools": [
+        // {
+        //   "name": "arara",
+        //   "command": "arara",
+        //   "args": [
+        //       "-p",
+        //       "build",
+        //       "%DOC%"
+        //   ],
+        //   "env": {}
+        // },
+        // {
+        //   "name": "arara clean",
+        //   "command": "arara",
+        //   "args": [
+        //       "-p",
+        //       "clean",
+        //       "%DOC%"
+        //   ],
+        //   "env": {}
+        // },
         {
             "name": "XeTeX",
             "command": "xelatex",
